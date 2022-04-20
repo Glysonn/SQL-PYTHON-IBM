@@ -16,3 +16,10 @@ CREATE TABLE INSTRUTOR (
 USE semana1;
 INSERT INTO INSTRUTOR (ins_id, lastname, firstname, city, country)
 VALUES (1, 'Ahuja', 'Rav', 'Toronto', 'CA')
+
+---Tarefa 2B: insira duas linhas de uma vez na tabela INSTRUTOR para os instrutores Raul Chong e Hima Vasudevan.
+INSERT INTO instrutor(ins_id, lastname, firstname, city, country)
+VALUES
+(2, 'Chong', 'Raul', 'Toronto','CA'),
+(3,'Vasudevan','Hima','Chicago','US')
+;
