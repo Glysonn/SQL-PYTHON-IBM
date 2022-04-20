@@ -14,16 +14,5 @@ CREATE TABLE INSTRUTOR (
 
 ---Tarefa 2A: insira uma linha na tabela INSTRUTOR para o instrutor Rav Ahuja.
 USE semana1;
-INSERT INTO INSTRUTOR (
-    ins_id, 
-    lastname,
-    firstname, 
-    city, 
-    country
-)
-VALUES (
-    1, 
-    'Ahuja', 
-    'Rav', 
-    'Toronto', 
-    'CA')
+INSERT INTO INSTRUTOR (ins_id, lastname, firstname, city, country)
+VALUES (1, 'Ahuja', 'Rav', 'Toronto', 'CA')
