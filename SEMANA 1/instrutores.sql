@@ -23,3 +23,6 @@ VALUES
 (2, 'Chong', 'Raul', 'Toronto','CA'),
 (3,'Vasudevan','Hima','Chicago','US')
 ;
+
+---Tarefa 3: selecione todas as linhas da tabela INSTRUTOR.
+SELECT * FROM instrutor;
