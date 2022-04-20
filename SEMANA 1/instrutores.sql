@@ -26,3 +26,7 @@ VALUES
 
 ---Tarefa 3: selecione todas as linhas da tabela INSTRUTOR.
 SELECT * FROM instrutor;
+
+---Tarefa 3B: selecione o nome, sobrenome e país onde a cidade é Toronto.
+SELECT firstname, lastname, country FROM instrutor 
+WHERE city = 'Toronto'
