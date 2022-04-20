@@ -38,3 +38,6 @@ WHERE ins_id = 1
 
 ---Tarefa 5: exclua a linha de Raul Chong da tabela.
 DELETE FROM instrutor WHERE ins_id = 2
+
+---Tarefa 5B: recupere todas as linhas da tabela INSTRUTOR
+SELECT * FROM instrutor
