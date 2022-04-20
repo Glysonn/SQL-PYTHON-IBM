@@ -36,3 +36,5 @@ UPDATE instrutor
 SET city = 'Markham'
 WHERE ins_id = 1
 
+---Tarefa 5: exclua a linha de Raul Chong da tabela.
+DELETE FROM instrutor WHERE ins_id = 2
