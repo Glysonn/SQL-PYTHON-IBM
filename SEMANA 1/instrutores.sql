@@ -30,3 +30,9 @@ SELECT * FROM instrutor;
 ---Tarefa 3B: selecione o nome, sobrenome e país onde a cidade é Toronto.
 SELECT firstname, lastname, country FROM instrutor 
 WHERE city = 'Toronto'
+
+---Tarefa 4: atualize a linha de Rav Ahuja e mude sua cidade para Markham.
+UPDATE instrutor
+SET city = 'Markham'
+WHERE ins_id = 1
+
