@@ -12,3 +12,13 @@ WHERE B_DATE LIKE "197%"
 select F_NAME, L_NAME FROM employees 
 WHERE DEP_ID = 5 
 and (SALARY between 60000 and 70000);
+
+---Query 4A: Recupere uma lista de funcionários ordenados por ID de departamento.
+select F_NAME, L_NAME, DEP_ID FROM employees 
+ORDER BY DEP_ID
+/* Query 4B: Recupere uma lista de funcionários ordenados em ordem decrescente por
+ID do departamento e dentro de cada departamento ordenados alfabeticamente em
+ordem decrescente pelo sobrenome */
+select F_NAME, L_NAME, DEP_ID FROM employees 
+ORDER BY DEP_ID DESC, L_NAME DESC
+
