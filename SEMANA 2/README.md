@@ -1,5 +1,5 @@
-<h1> Exercise List </h2
->
+<h1> Exercise List </h2>
+<br>
 <h2>Query 1</h2>
 Retrieve all employees whose address is in Elgin,IL
 
