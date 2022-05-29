@@ -41,3 +41,9 @@ GROUP BY DEP_ID ORDER BY AVG_SALARY;
 SELECT DEP_ID, COUNT(*) AS 'NUM_EMPLOYEES', AVG(SALARY) AS 'AVG_SALARY'
 FROM EMPLOYEES
 GROUP BY DEP_ID HAVING (NUM_EMPLOYEES) < 4 ORDER BY AVG_SALARY;
+
+---BONUS Query 6: Semelhante a 4B, mas em vez de usar o ID do departamento, use o nome do departamento. Recupere uma lista de funcionários ordenados por nome de departamento e dentro de cada departamento ordenado alfabeticamente em ordem decrescente pelo sobrenome.
+select D.DEP_NAME, E.F_NAME, E.L_NAME 
+FROM departments as D, employees as E
+where E.DEP_ID = D.DEPT_ID_DEP
+ORDER BY D.DEP_NAME, E.L_NAME DESC
